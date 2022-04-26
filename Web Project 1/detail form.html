@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #submission{
+            margin-top: 4px;
+            margin-bottom: 4px;
+        }
+        label{
+            width:100px;
+        }
+
+        body{
+            background-image:url("fav.jpg");
+            size:100%
+        }
+        header{
+            text-align:center
+        }
+        legend{
+            background-color:hsla(25%, 15%, 35%, 12%);
+            margin-left: 533px;
+            margin-right:533px;
+            size: 100%;
+        }
+        input{
+            width:97%;
+            height:33px;
+            align-items:center
+        }
+        footer{
+            background-color: black;
+            color:cyan;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><TERRESTRIAL</h1>
+        <h2>Please fill out this form</h2>
+    </header>
+    <form action="file:///D:/HTML/Web%20Project%201/welcome.html">
+    <legend>
+        <label for="firstname">Firstname</label>
+    <input type="text" minlength="3" name="firstname" placeholder="input your first name" required><br>
+    <label for="Secondname">Secondname</label>
+    <input type="text" minlength="3" name="Secondname" placeholder="input your second name" required><br>
+    <label for="password">Password</label>
+    <input type="password" minlength="7" max-length="12" name="password" placeholder="password between 7 and 12 characters"  required><br>
+    <label for="password">Password</label>
+    <input type="password" minlength="7" maxlength="12" name="password" placeholder="Input your password again" required><br>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="input your email"><br>
+    <input type="submit" name="submit" value="Submit details" id="submission">
+    <footer>
+        <h3><i>We are the most trusted advertising website with vast experience. We connect sellers to potential buyers and buyers to sellers hoping that both of them will be satisfied</i></h3>
+    </footer>
+    </legend>
+    </form>
+</body>
+</html>
